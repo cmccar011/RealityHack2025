@@ -138,6 +138,22 @@ PrefabInstance:
       propertyPath: CollisionModule.type
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7470359461775393287, guid: 866cf419d8b361c48b3cf9df6096a32b, type: 3}
+      propertyPath: simulationSpeed
+      value: 0.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 7470359461775393287, guid: 866cf419d8b361c48b3cf9df6096a32b, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 7470359461775393287, guid: 866cf419d8b361c48b3cf9df6096a32b, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 12.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 7470359461775393287, guid: 866cf419d8b361c48b3cf9df6096a32b, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8228673938975074858, guid: 866cf419d8b361c48b3cf9df6096a32b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.01
