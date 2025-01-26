@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\cmcca\\Documents\\GitHub\\RealityHack2025\\Reality Hack 2025!\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cmcca\\Documents\\GitHub\\RealityHack2025\\Reality Hack 2025!\\Library\\PackageCache\\com.meta.xr.sdk.core@71.0.0\\Editor\\BuildingBlocks\\BlocksWindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.meta.xr.sdk.core@71.0.0\\Editor\\BuildingBlocks\\BlocksWindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cmcca\\Documents\\GitHub\\RealityHack2025\\Reality Hack 2025!\\Library\\PackageCache\\com.meta.xr.sdk.core@71.0.0\\Scripts\\OVRManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.meta.xr.sdk.core@71.0.0\\Scripts\\OVRManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26180594-9998-55DA-F49A-BC63B4FB52E9}|Assembly-CSharp.csproj|c:\\users\\cmcca\\documents\\github\\realityhack2025\\reality hack 2025!\\assets\\scripts\\extinguisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26180594-9998-55DA-F49A-BC63B4FB52E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\extinguisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BlocksWindow.cs",
-              "DocumentMoniker": "C:\\Users\\cmcca\\Documents\\GitHub\\RealityHack2025\\Reality Hack 2025!\\Library\\PackageCache\\com.meta.xr.sdk.core@71.0.0\\Editor\\BuildingBlocks\\BlocksWindow.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.meta.xr.sdk.core@71.0.0\\Editor\\BuildingBlocks\\BlocksWindow.cs",
-              "ToolTip": "C:\\Users\\cmcca\\Documents\\GitHub\\RealityHack2025\\Reality Hack 2025!\\Library\\PackageCache\\com.meta.xr.sdk.core@71.0.0\\Editor\\BuildingBlocks\\BlocksWindow.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.meta.xr.sdk.core@71.0.0\\Editor\\BuildingBlocks\\BlocksWindow.cs",
-              "ViewState": "AgIAAJQBAAAAAAAAAAAhwKcBAAAsAAAAAAAAAA==",
+              "Title": "Extinguisher.cs",
+              "DocumentMoniker": "C:\\Users\\cmcca\\Documents\\GitHub\\RealityHack2025\\Reality Hack 2025!\\Assets\\Scripts\\Extinguisher.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Extinguisher.cs",
+              "ToolTip": "C:\\Users\\cmcca\\Documents\\GitHub\\RealityHack2025\\Reality Hack 2025!\\Assets\\Scripts\\Extinguisher.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Extinguisher.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T22:38:14.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OVRManager.cs",
-              "DocumentMoniker": "C:\\Users\\cmcca\\Documents\\GitHub\\RealityHack2025\\Reality Hack 2025!\\Library\\PackageCache\\com.meta.xr.sdk.core@71.0.0\\Scripts\\OVRManager.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.meta.xr.sdk.core@71.0.0\\Scripts\\OVRManager.cs",
-              "ToolTip": "C:\\Users\\cmcca\\Documents\\GitHub\\RealityHack2025\\Reality Hack 2025!\\Library\\PackageCache\\com.meta.xr.sdk.core@71.0.0\\Scripts\\OVRManager.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.meta.xr.sdk.core@71.0.0\\Scripts\\OVRManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T16:40:44.86Z",
+              "WhenOpened": "2025-01-26T02:36:52.775Z",
               "EditorCaption": ""
             }
           ]
