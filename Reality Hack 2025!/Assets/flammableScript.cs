@@ -16,6 +16,8 @@ public class flammableScript : MonoBehaviour
 
     public ParticleSystem fireSys;
 
+    public GameObject scoreTrack;
+
 
     //Audio Sources
     public AudioSource as1;
@@ -86,6 +88,8 @@ public class flammableScript : MonoBehaviour
         fireSys.Stop();
         as1.Stop();
         as2.Stop();
+
+        scoreTrack.GetComponent<ScoreTracker>().IncreaseScore(20);
     }
 
     void OnParticleCollision(GameObject other)
