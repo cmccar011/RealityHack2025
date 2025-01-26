@@ -15,6 +15,12 @@ public class flammableScript : MonoBehaviour
     public ParticleSystem smokeSys;
 
     public ParticleSystem fireSys;
+
+
+    //Audio Sources
+    public AudioSource as1;
+    public AudioSource as2;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -46,11 +52,13 @@ public class flammableScript : MonoBehaviour
         igniteStage++;
         if (igniteStage == 1)
         {
+                as1.Play();
             Smoke();
             Debug.Log("Smoke Fired");
         }
         else if (igniteStage == 2)
         {
+                as2.Play();
             Fire();
         }
        }
