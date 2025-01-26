@@ -13,6 +13,7 @@ public class heater : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //gameObject.transform.eulerAngles = new Vector3(gameObject.transform.eulerAngles.x, gameObject.transform.eulerAngles.y += 5 * Time.deltaTime, gameObject.transform.eulerAngles.z);
+        gameObject.transform.Rotate(0, 5 * Time.deltaTime, 0, Space.World);
     }
 }
