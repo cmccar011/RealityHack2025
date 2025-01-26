@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class flammableScript : MonoBehaviour
@@ -46,5 +47,15 @@ public class flammableScript : MonoBehaviour
         onFire = true;
         particleSys.Play();
         Debug.Log("Ignition End");
+    }
+
+    void OnParticleCollision(GameObject other)
+    {
+        if (other.CompareTag("Extinguish"))
+        {
+            //Debug.Log("Collide");
+            onFire = false;
+            particleSys.Stop();
+        }
     }
 }

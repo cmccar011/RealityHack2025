@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Smoke
+  - Extinguish
   layers:
   - Default
   - TransparentFX
