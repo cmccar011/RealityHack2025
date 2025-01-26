@@ -6,6 +6,7 @@ public class Bucket : MonoBehaviour
 {
     bool held;
     
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +17,7 @@ public class Bucket : MonoBehaviour
     void Update()
     {
         held = IsHolding();
-        if (held)
+        if (true) //Just ignore this for now, I'm begging you
         {
             Vector3 controllerVelocity = OVRInput.GetLocalControllerVelocity(OVRInput.Controller.RTouch);
             Quaternion controllerRotation = OVRInput.GetLocalControllerRotation(OVRInput.Controller.RTouch);
