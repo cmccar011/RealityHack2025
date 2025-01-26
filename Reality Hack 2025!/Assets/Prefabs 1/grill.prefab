@@ -104,10 +104,11 @@ MonoBehaviour:
   smoking: 0
   onFire: 0
   igniteCount: 0
-  igniteRate: 2
+  igniteRate: 1
   igniteStage: 0
   smokeSys: {fileID: 5241826096232326273}
   fireSys: {fileID: 20524353160603108}
+  scoreTrack: {fileID: 0}
   as1: {fileID: 9216225623492688373}
   as2: {fileID: 4753168815131920818}
 --- !u!65 &6784989160279243259

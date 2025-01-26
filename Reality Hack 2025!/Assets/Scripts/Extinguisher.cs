@@ -1,6 +1,8 @@
+using Oculus.Interaction;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Meta;
 
 public class Extinguisher : MonoBehaviour
 {
@@ -16,7 +18,7 @@ public class Extinguisher : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
