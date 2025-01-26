@@ -21,7 +21,7 @@ public class Grill : flammableScript
     {
         Debug.Log("Ignition Start");
         onFire = true;
-        particleSys.Play();
+        //particleSys.Play();
         Debug.Log("Ignition End");
     }
 }
