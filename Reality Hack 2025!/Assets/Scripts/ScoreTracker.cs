@@ -26,7 +26,7 @@ public class ScoreTracker : MonoBehaviour
         if (score >= 100)
         {
             //Load another scene, maybe a win screen?
-
+            SceneManager.LoadScene(1);
         }
     }
 
