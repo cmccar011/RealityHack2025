@@ -20,9 +20,12 @@ public class Scrub : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Grill"))
         {
-             //Find a way to disable the grill's ability to combust
-
-
+            //Find a way to disable the grill's ability to combust
+            if (other.gameObject.GetComponent<flammableScript>().igniteStage != 2)
+            {
+                other.gameObject.GetComponent<flammableScript>().igniteStage = 0;
+                other.gameObject.GetComponent<flammableScript>().StopFires();
+            }
         }
     }
 }

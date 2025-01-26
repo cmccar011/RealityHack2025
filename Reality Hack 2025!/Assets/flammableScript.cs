@@ -80,6 +80,13 @@ public class flammableScript : MonoBehaviour
         Debug.Log("Fire End");
     }
 
+    public void StopFires()
+    {
+        smokeSys.Stop();
+        fireSys.Stop();
+        as1.Stop();
+        as2.Stop();
+    }
 
     void OnParticleCollision(GameObject other)
     {
